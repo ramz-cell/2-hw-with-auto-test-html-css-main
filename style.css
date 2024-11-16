@@ -12,7 +12,6 @@ body {
 }
 
 header {
-    height: 70px;
     background-color: #2965f1;
     padding: 23px 0;
     /* Стили для хедера */
@@ -28,7 +27,6 @@ header span {
 .main-section {
     background-color: #fafaff;
     padding: 60px 0;
-    height: 100px;
     /* Стили для первой секции */
 }
 
@@ -54,7 +52,6 @@ header span {
 
 
 .about-section {
-    height: 883px;
     background-color: #fff;
     padding: 100px 0;
     /* Стили для второй секции */
@@ -62,7 +59,6 @@ header span {
 
 select {
     width: 150px;
-    height: 36px;
     font-weight: 400;
     font-size: 16px;
     color: #303030;
@@ -93,14 +89,12 @@ select {
 
 .books-list {
     width: 476px;
-    height: 19px;
     padding-left: 20px;
     /* Стили для нумерованного списка во второй секции */
 }
 
 .label {
     width: 475px;
-    height: 73px;
     /* Стили для подписей чекбоксов */
 }
 
@@ -115,7 +109,6 @@ select {
 .btn {
     border-radius: 5px;
     width: 125px;
-    height: 36px;
     background: #2965f1;
     font-family: "Inter", sans-serif;
     font-weight: 700;
@@ -127,7 +120,6 @@ select {
 .line {
     border: 1px solid rgba(48, 48, 48, 0.3);
     width: 1440px;
-    height: 0px;
     /* Стили для линии */
 }
 
