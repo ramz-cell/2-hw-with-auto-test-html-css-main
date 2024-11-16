@@ -12,13 +12,13 @@ body {
 }
 
 header {
+    height: 70px;
     background-color: #2965f1;
-    padding: 23px 23px;
+    padding: 23px 0;
     /* Стили для хедера */
 }
 
 header span {
-    font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 20px;
     color: #fff;
@@ -26,22 +26,21 @@ header span {
 }
 
 .main-section {
-    width: 1440px;
-    height: 1024px;
     background-color: #fafaff;
+    padding: 60px 0;
+    height: 100px;
     /* Стили для первой секции */
 }
 
 .main-title {
-    font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 48px;
     color: #303030;
+    margin-bottom: 20px;
     /* Стили для заголовка в первой секции */
 }
 
 .main-text {
-    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: #303030;
@@ -49,42 +48,53 @@ header span {
 }
 
 .main-image {
-    fill: #fafaff;
+    max-width: 715px;
     /* Стили для изображения в первой секции */
 }
 
 
 .about-section {
-    width: 1440px;
     height: 883px;
+    background-color: #fff;
+    padding: 100px 0;
     /* Стили для второй секции */
 }
 
 select {
-    border: 1px solid rgba(48, 48, 48, 0.3);
-    border-radius: 5px;
     width: 150px;
     height: 36px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
+    background-image: url(./assets/img/Vector.svg);
+    background-repeat: no-repeat;
+    appearance: none;
+    background-position: right 0 top 50%;
+
     /* Стили для выпадающего списка */
 }
 
 .section-title {
-    font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 24px;
     color: #303030;
+    margin-bottom: 25px;
     /* Стили для заголовков во второй секции */
 }
 
 .frameworks-list {
-    width: 424px;
-    height: 111px;
+    list-style-image: url(./assets/images/solar_map-arrow-up-bold.svg);
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
     /* Стили для маркированного списка во второй секции */
 }
 
 .books-list {
-    width: 670px;
-    height: 111px;
+    width: 476px;
+    height: 19px;
+    padding-left: 20px;
     /* Стили для нумерованного списка во второй секции */
 }
 
