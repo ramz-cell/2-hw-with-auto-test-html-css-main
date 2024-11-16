@@ -85,6 +85,7 @@ select {
     font-weight: 400;
     font-size: 16px;
     color: #303030;
+    padding: 0px 20px;
     /* Стили для маркированного списка во второй секции */
 }
 
