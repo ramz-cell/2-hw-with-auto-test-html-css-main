@@ -6,8 +6,9 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
+    color: #303030;
 }
 
 header {
@@ -27,7 +28,7 @@ header span {
 .main-section {
     width: 1440px;
     height: 1024px;
-    background: #fafaff;
+    background-color: #fafaff;
     /* Стили для первой секции */
 }
 
